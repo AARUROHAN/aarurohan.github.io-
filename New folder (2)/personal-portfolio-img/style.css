@@ -1,0 +1,101 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 90%; /* Increased width to make sections broader */
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%; /* Ensures full width */
+    height: 100vh; /* Full viewport height */
+    background-image: url(images/nnnnnn.jpg); /* Background image */
+    background-size: cover; /* Ensures image covers the entire header */
+    background-position: center; /* Centers the image */
+  }
+  
+  header h1 {
+    margin-left: 20px;
+    color: #ff69b4; /* Pink color for "Rohan Kumar Rajak" */
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  #about .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  #projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #projects p {
+    font-size: 18px;
+    color: #777;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
